@@ -1,0 +1,5 @@
+# LogQL for the nginx-access job in deliverables/promtail-nginx.yaml.
+# Check upstream docs before you rely on a line filter.
+{job="nginx-access", host="example.com"}
+{job="nginx-access"} |= "GET"
+{job="nginx-access"} |= "404"

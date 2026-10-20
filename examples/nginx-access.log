@@ -1,0 +1,6 @@
+192.0.2.10 - - [21/Oct/2026:10:40:01 +0000] "GET /health HTTP/1.1" 200 128 "-" "curl/8.0.0"
+192.0.2.11 - - [21/Oct/2026:10:40:02 +0000] "POST /api/v1/push HTTP/1.1" 204 0 "-" "promtail-example"
+198.51.100.20 - - [21/Oct/2026:10:40:03 +0000] "GET /status HTTP/1.1" 200 64 "https://example.com/" "Mozilla/5.0 (example)"
+203.0.113.30 - - [21/Oct/2026:10:40:04 +0000] "GET /missing HTTP/1.1" 404 32 "-" "curl/8.0.0"
+192.0.2.12 - - [21/Oct/2026:10:40:05 +0000] "HEAD /health HTTP/1.1" 200 0 "https://example.com/start" "curl/8.0.0"
+198.51.100.21 - - [21/Oct/2026:10:40:06 +0000] "GET /ready HTTP/1.1" 503 48 "-" "curl/8.0.0"
